@@ -15,6 +15,9 @@ data/*
 !data/env_standalone.js
 !data/fixture.json
 
+mocks/*
+!mocks/fields.json
+
 # OS generated files
 .DS_Store
 .DS_Store?
