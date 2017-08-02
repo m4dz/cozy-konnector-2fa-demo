@@ -64930,7 +64930,7 @@ module.exports = {
 		"standalone": "env-cmd ./data/env_standalone.js npm start",
 		"build": "webpack",
 		"lint": "standard --fix konnector.js",
-		"deploy": "git-directory-deploy --directory build/ --branch build --repo=https://github.com/m4dz/cozy-konnector-2fa-demo.git"
+		"deploy": "git-directory-deploy --directory build/ --branch build --repo=https://github.com/<USERNAME_GH>/<SLUG_GH>.git"
 	},
 	"devDependencies": {
 		"copy-webpack-plugin": "^4.0.1",
