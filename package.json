@@ -23,7 +23,7 @@
     "standalone": "env-cmd ./data/env_standalone.js npm start",
     "build": "webpack",
     "lint": "standard --fix konnector.js",
-    "deploy": "git-directory-deploy --directory build/ --branch build --repo=https://github.com/<USERNAME_GH>/<SLUG_GH>.git"
+    "deploy": "git-directory-deploy --directory build/ --branch build"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.0.1",
